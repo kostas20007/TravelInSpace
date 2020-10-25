@@ -12,7 +12,6 @@ green=(0,255,0)
 blue=(0,0,255)
 yellow=(255,255,0)
 font=pygame.font.SysFont("Arial",25)
-text=font.render("1.Play  2.Quit  Enter Choice: ",True,red)
 ship_image=pygame.image.load('Enterprise2.png').convert()
 enShip_image=pygame.image.load('enemy_ship_image.png')
 enShip_image1=pygame.image.load('enemy_ship_image1.png')
@@ -20,8 +19,6 @@ background_image=pygame.image.load('star_trek_background.png')
 enShip_image2=pygame.image.load('fighterspr1.png')
 enShip_image3=pygame.image.load('spacecraft_2.png')
 
-
-#font=pygame.font.Font(None,30)
 font2=pygame.font.SysFont("Arial",40)
 
 
